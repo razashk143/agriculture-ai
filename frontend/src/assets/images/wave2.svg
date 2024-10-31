@@ -1,0 +1,7 @@
+<svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <rect x="0" y="0" width="900" height="600" fill="#f77d37"></rect>
+    <path
+        d="M0 140L37.5 204.5C75 269 150 398 225 431.8C300 465.7 375 404.3 450 356.8C525 309.3 600 275.7 675 260.7C750 245.7 825 249.3 862.5 251.2L900 253L900 601L862.5 601C825 601 750 601 675 601C600 601 525 601 450 601C375 601 300 601 225 601C150 601 75 601 37.5 601L0 601Z"
+        fill="#13203C" stroke-linecap="round" stroke-linejoin="miter"></path>
+</svg>

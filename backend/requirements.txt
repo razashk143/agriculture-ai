@@ -1,0 +1,11 @@
+Flask==2.1.1
+Flask-Cors==3.0.10
+opencv-python==4.6.0.66
+numpy==1.21.4
+pickleshare==0.7.5
+jsonpickle==3.0.1
+openai==0.26.3
+geopy==2.3.0
+tensorflow
+gunicorn==19.7.1
+scikit-learn

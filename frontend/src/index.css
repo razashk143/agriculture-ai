@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  transition: all 0.3s;
+  /* "#FA9054", "#" , "#1D9387" */
+}
+:root {
+  --green: #1d9389;
+  --orange: #f57a32;
+  --dark-blue: #13203c;
+  --light-yellow: #cfbb49;
+  --primary: #fffbec;
+}
+body {
+  background-color: #fffbec;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.section {
+  padding: 0 8rem;
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inp {
+  display: block;
+}
+/* .img-upload {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  justify-content: flex-start;
+} */
+/* ---------------- chat -------- */
+.rcw-launcher {
+  background-color: #e38b0e !important;
+}
+.rcw-send,
+.rcw-picker-btn {
+  margin: auto 10px;
+}
+.rcw-conversation-container .rcw-header,
+.rcw-close-button {
+  background-color: #e38b0e !important;
+  color: white;
+}
+.rcw-client .rcw-message-text {
+  background-color: #f4d6ab !important;
+  font-weight: 500;
+  opacity: 0.85;
+}
+.rcw-input {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .section {
+    padding: 0 3rem !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section {
+    padding: 0 1.5rem !important;
+  }
+}

@@ -1,0 +1,106 @@
+.hero-container {
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.title-container {
+  background: url("../../assets/images/wave2.svg") no-repeat center center;
+  background-size: contain;
+  background-size: 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+
+.hero-container .image-container {
+  margin-top: 50px;
+  position: relative;
+}
+
+.hero-container .image-container img {
+  max-width: 100%;
+  border-radius: 35px;
+  z-index: -1;
+  filter: brightness(95%);
+}
+
+.img-content {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  /* height: 100%; */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.options .option {
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  font-weight: 700;
+  opacity: 0.85;
+  font-size: 1.1rem;
+  box-shadow: rgba(230, 230, 230, 0.2) 0px 5px 10px 0px;
+}
+
+.hero-button {
+  width: fit-content;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 50px;
+  font-weight: 700;
+  background-color: #13203c;
+  color: #fff;
+  font-size: 1.2rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.hero-button:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .options {
+    gap: 10px;
+  }
+  .img-content {
+    top: 50%;
+    left: 50%;
+  }
+  .options .option {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .img-content .options {
+    display: none;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+}

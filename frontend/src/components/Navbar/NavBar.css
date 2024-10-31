@@ -1,0 +1,81 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.nav-container .logo {
+  font-weight: 800;
+  font-size: 1.8rem;
+  opacity: 0.85;
+  cursor: pointer;
+}
+.nav-container .nav-items {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  opacity: 0.9;
+  font-size: 1rem;
+}
+.nav-container .nav-items a:hover {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+.nav-container .contact-button {
+  padding: 8px 20px;
+  border-radius: 50px;
+  border: 2px solid black;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.nav-container .contact-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* ---------------- responsive ------------ */
+
+.burger img {
+  max-width: 30px;
+  cursor: pointer;
+}
+
+.sidebar {
+  width: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: var(--primary);
+  z-index: 9;
+  padding: 30px;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.close-button {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+@media screen and (max-width: 900px) {
+  .nav-container {
+    height: 80px;
+  }
+  .nav-items {
+    flex-direction: column;
+    font-size: 1.2rem !important;
+  }
+  .nav-item-container {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sidebar {
+    width: 70%;
+  }
+}
